@@ -1,0 +1,76 @@
+body {
+  overflow-x: hidden;
+}
+.btn {
+  font-size: 11px;
+}
+.fa {
+  font-size: 12px;
+}
+.mbl,
+.mail {
+  font-size: 13px;
+}
+.nav-item {
+  font-size: 13px;
+}
+.bg-image {
+  background-image: url("/Images/bgimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-section .sub-col {
+  padding-left: 12%;
+}
+.heading {
+  text-align: center;
+  padding-top: 5%;
+}
+.heading p {
+  font-size: 12px;
+}
+.offer {
+  padding: 1% 15%;
+}
+.offer .card-body {
+  padding: 1% 0%;
+}
+.offer .card-title {
+  padding: 3% 0%;
+  font-size: 17px;
+}
+.offer .card-text {
+  font-size: 13px;
+}
+.fix {
+  margin-top: 8%;
+  background: #fbf9f9;
+}
+.fix .sub-col1 {
+  padding-left: 15%;
+}
+.fix p {
+  font-size: 13px;
+}
+.discount {
+  padding: 7% 15%;
+  background: linear-gradient(rgba(255, 0, 234, 0.8), rgba(255, 0, 234, 0.8)),
+    url(/Images/img5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.discount .form-control {
+  border: 1px solid #f782ee;
+  background-image: linear-gradient(
+    rgba(255, 0, 234, 0.8),
+    rgba(255, 0, 234, 0.8)
+  );
+  border-radius: 0;
+  margin-top: 7%;
+}
+.discount .btn-estimate {
+  margin-top: 7%;
+}
+.slider-nav{
+    padding: 0% 15%;
+}
