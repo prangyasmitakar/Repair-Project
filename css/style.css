@@ -1,6 +1,6 @@
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 .btn {
   font-size: 11px;
 }
@@ -49,6 +49,11 @@ body {
 .fix .sub-col1 {
   padding-left: 15%;
 }
+.fix .sub-col2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .fix p {
   font-size: 13px;
 }
@@ -58,6 +63,7 @@ body {
     url(/Images/img5.png);
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 .discount .form-control {
   border: 1px solid #f782ee;
@@ -71,32 +77,73 @@ body {
 .discount .btn-estimate {
   margin-top: 7%;
 }
-.form-control::placeholder{
+.form-control::placeholder {
   color: white;
 }
-.bg-color{
-  background: rgb(87, 87, 240);
+.bg-color {
+  background: linear-gradient(to bottom right, #33ccff 0%, #6600cc 100%);
 }
-.bg-color span{
-   font-size: 13px;
+.bg-color span {
+  font-size: 13px;
 }
 .bg-color .slider-nav {
-  padding: 7% 11%;
-
+  margin: 7% 11% 0% 11%;
 }
-.bg-color .card,.bg-color .slick-active ,.bg-color .slick-current{
-  margin: 0 10px;
-  /* width: 330px !important; */
+.slick-next,
+.slick-prev {
+  display: none !important;
+}
+.bg-color .slick-slider .slick-track {
+  margin-bottom: 11%;
+}
+.bg-color .card {
   border-radius: 0 !important;
 }
-.bg-color .slick-list{
+.bg-color .slick-initialized .slick-slide {
+  margin: 0 10px;
+  width: 330px;
+}
+.bg-color p {
+  text-align: center;
+  font-size: 11px;
+  color: #afadad;
+}
+.bg-color .sub-text {
+  font-size: 10px;
+  padding-bottom: 5%;
+}
+.bg-color .slick-dots {
+  bottom: 45px;
+}
+.bg-color .slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: white;
+}
+.bg-color .slick-dots li button:before {
+  color: #ebd8d8;
+}
+/*--------------------------------Media Queries---------------------------------------*/
+@media (max-width: 1399.98px) {
 
 }
-.bg-color p{
-  text-align: center;
-  font-size: 14px;
+@media (max-width: 1100px) {
+  .bg-color .slick-dots {
+    bottom: 25px;
 }
-.bg-color .sub-text{
-  font-size: 10px;
+}
+@media (max-width: 992px){
+  .bg-color .slick-dots {
+    bottom: 25px;
+}
+}
+@media (max-width: 768px) {
+  .bg-color .slick-dots {
+    bottom: 16px ;
+}
+}
+@media (max-width: 575.98px) {
+  .bg-color .slick-dots {
+    bottom: -7px ;
+  }
 }
 
